@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "recoleta";
+  src: url("../fonts/recoletaalt-medium.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "arabato";
+  src: url("../fonts/araboto-medium-400.woff2") format("woff2");
+  font-display: swap;
+}
+body {
+  font-family: "arabato";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "recoleta";
+  font-weight: normal;
+}
+
+.container {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.container--small {
+  max-width: 30rem;
+}
+
+.button {
+  display: inline-block;
+  border: 2px solid #13252c;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: #13252c;
+  -webkit-box-shadow: 0.3rem 0.3rem 0 #13252c;
+          box-shadow: 0.3rem 0.3rem 0 #13252c;
+  background: #feb58b;
+  border-radius: 0.2rem;
+}
+.button:hover {
+  background: #fea572;
+  color: #13252c;
+}
+.button--transparente {
+  background: initial;
+  -webkit-box-shadow: initial;
+          box-shadow: initial;
+  border: initial;
+}
+.button--transparente:hover {
+  background: initial;
+  color: #feb58b;
+}
+.button--redondo {
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 0 0.3rem 0 #13252c;
+          box-shadow: 0 0.3rem 0 #13252c;
+}
+.button--amarillo {
+  background: #f9de83;
+}
+.button--amarillo:hover {
+  background: #f8d86b;
+}
+.button--azul {
+  background: #a0d8e7;
+}
+.button--azul:hover {
+  background: #8cd0e2;
+}
+.button--verde {
+  background: #adecb2;
+}
+.button--verde:hover {
+  background: #98e79f;
+}
+
+.nav__ul {
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+.header__title {
+  margin: 0;
+}
+
+.landing__title {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.footer__texto {
+  margin-bottom: 0;
+}
+.footer__fecha {
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=main.css.map */
